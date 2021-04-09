@@ -11,7 +11,7 @@ namespace P_SimpleMethod_Speak
             answer = Console.ReadLine().ToLower();
             string animalSound = Speak(answer);
 
-            if (answer == "dog", "cat", "lion")
+            if (answer == "dog" || answer == "cat" ||  answer == "lion")
             {
                 Console.WriteLine($"A {answer} makes a {animalSound} sound! Yay!");
             }
